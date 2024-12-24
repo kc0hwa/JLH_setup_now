@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html [
+	<!ENTITY nbsp "&#xA0;">
+	<!ENTITY sdot "&#x22C5;">
+]>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!-- git web interface version 2.39.5, (C) 2005-2006, Kay Sievers <kay.sievers@vrfy.org>, Christian Gierke -->
+<!-- git core binaries version 2.39.5 -->
+<head>
+<meta name="generator" content="gitweb/2.39.5 git/2.39.5"/>
+<meta name="robots" content="index, nofollow"/>
+<title>git.proxmox.com Git</title>
+<link rel="stylesheet" type="text/css" href="static/gitweb.css"/>
+<link rel="stylesheet" type="text/css" href="static/pve-extra.css"/>
+<link rel="alternate" title="git.proxmox.com Git projects list" href="/?a=project_index" type="text/plain; charset=utf-8" />
+<link rel="alternate" title="git.proxmox.com Git projects feeds" href="/?a=opml" type="text/x-opml" />
+<link rel="shortcut icon" href="static/git-favicon.png" type="image/png" />
+</head>
+<body>
+<div class="page_header">
+<a href="http://git-scm.com/" title="git homepage"><img alt="git" class="logo" height="27" src="static/git-logo.png" width="72" /></a><a href="/">projects</a> / </div>
+<div class="projsearch">
+<form method="get" action="/" enctype="multipart/form-data"><input type="hidden" name="a" value="project_list"  />
+<input type="text" name="s"  size="60" title="Search project by name and description" />
+<span title="Extended regular expression"><label><input type="checkbox" name="sr" value="1" />re</label></span>
+<input type="submit" name="btnS" value="Search" />
+</form>
+<a href="/">List all projects</a><br />
+</div>
+<table class="project_list">
+<tr>
+<th>Project</th>
+<th><a class="header" href="/?o=descr">Description</a></th>
+<th><a class="header" href="/?o=age">Last Change</a></th>
+<th></th>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=aab.git;a=summary">aab.git</a></td>
+<td><a class="list" href="/?p=aab.git;a=summary" title="archlinux appliance builder">archlinux appliance builder</a></td>
+<td class="age2">2 years ago</td>
+<td class="link"><a href="/?p=aab.git;a=summary">summary</a> | <a href="/?p=aab.git;a=shortlog">shortlog</a> | <a href="/?p=aab.git;a=log">log</a> | <a href="/?p=aab.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=arch-pacman.git;a=summary">arch-pacman.git</a></td>
+<td><a class="list" href="/?p=arch-pacman.git;a=summary" title="debian package for archlinux pacman">debian package for archlinux... </a></td>
+<td class="age2">3 years ago</td>
+<td class="link"><a href="/?p=arch-pacman.git;a=summary">summary</a> | <a href="/?p=arch-pacman.git;a=shortlog">shortlog</a> | <a href="/?p=arch-pacman.git;a=log">log</a> | <a href="/?p=arch-pacman.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=ceph.git;a=summary">ceph.git</a></td>
+<td><a class="list" href="/?p=ceph.git;a=summary" title="Ceph">Ceph</a></td>
+<td class="age2">3 weeks ago</td>
+<td class="link"><a href="/?p=ceph.git;a=summary">summary</a> | <a href="/?p=ceph.git;a=shortlog">shortlog</a> | <a href="/?p=ceph.git;a=log">log</a> | <a href="/?p=ceph.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=corosync-pve.git;a=summary">corosync-pve.git</a></td>
+<td><a class="list" href="/?p=corosync-pve.git;a=summary" title="Corosync Cluster Engine">Corosync Cluster Engine</a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=corosync-pve.git;a=summary">summary</a> | <a href="/?p=corosync-pve.git;a=shortlog">shortlog</a> | <a href="/?p=corosync-pve.git;a=log">log</a> | <a href="/?p=corosync-pve.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=corosync-qdevice.git;a=summary">corosync-qdevice.git</a></td>
+<td><a class="list" href="/?p=corosync-qdevice.git;a=summary" title="Proxmox VE package of the Corosync Cluster Engine Qdevice">Proxmox VE package of the... </a></td>
+<td class="age2">3 years ago</td>
+<td class="link"><a href="/?p=corosync-qdevice.git;a=summary">summary</a> | <a href="/?p=corosync-qdevice.git;a=shortlog">shortlog</a> | <a href="/?p=corosync-qdevice.git;a=log">log</a> | <a href="/?p=corosync-qdevice.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=criu.git;a=summary">criu.git</a></td>
+<td><a class="list" href="/?p=criu.git;a=summary" title="CRIU">CRIU</a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=criu.git;a=summary">summary</a> | <a href="/?p=criu.git;a=shortlog">shortlog</a> | <a href="/?p=criu.git;a=log">log</a> | <a href="/?p=criu.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=dab-pve-appliances.git;a=summary">dab-pve-appliances.git</a></td>
+<td><a class="list" href="/?p=dab-pve-appliances.git;a=summary" title="DAB examples">DAB examples</a></td>
+<td class="age2">5 weeks ago</td>
+<td class="link"><a href="/?p=dab-pve-appliances.git;a=summary">summary</a> | <a href="/?p=dab-pve-appliances.git;a=shortlog">shortlog</a> | <a href="/?p=dab-pve-appliances.git;a=log">log</a> | <a href="/?p=dab-pve-appliances.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=dab.git;a=summary">dab.git</a></td>
+<td><a class="list" href="/?p=dab.git;a=summary" title="Debian Appliance Builder">Debian Appliance Builder</a></td>
+<td class="age2">5 weeks ago</td>
+<td class="link"><a href="/?p=dab.git;a=summary">summary</a> | <a href="/?p=dab.git;a=shortlog">shortlog</a> | <a href="/?p=dab.git;a=log">log</a> | <a href="/?p=dab.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=efi-boot-shim.git;a=summary">efi-boot-shim.git</a></td>
+<td><a class="list" href="/?p=efi-boot-shim.git;a=summary" title="shim, a first-stage UEFI bootloader adapted for Proxmox projects">shim, a first-stage UEFI bootl... </a></td>
+<td class="age2">7 months ago</td>
+<td class="link"><a href="/?p=efi-boot-shim.git;a=summary">summary</a> | <a href="/?p=efi-boot-shim.git;a=shortlog">shortlog</a> | <a href="/?p=efi-boot-shim.git;a=log">log</a> | <a href="/?p=efi-boot-shim.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=extjs.git;a=summary">extjs.git</a></td>
+<td><a class="list" href="/?p=extjs.git;a=summary" title="ExtJS JS Framework">ExtJS JS Framework</a></td>
+<td class="age2">5 weeks ago</td>
+<td class="link"><a href="/?p=extjs.git;a=summary">summary</a> | <a href="/?p=extjs.git;a=shortlog">shortlog</a> | <a href="/?p=extjs.git;a=log">log</a> | <a href="/?p=extjs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=fence-agents-pve.git;a=summary">fence-agents-pve.git</a></td>
+<td><a class="list" href="/?p=fence-agents-pve.git;a=summary" title="Fence agents">Fence agents</a></td>
+<td class="age2">9 years ago</td>
+<td class="link"><a href="/?p=fence-agents-pve.git;a=summary">summary</a> | <a href="/?p=fence-agents-pve.git;a=shortlog">shortlog</a> | <a href="/?p=fence-agents-pve.git;a=log">log</a> | <a href="/?p=fence-agents-pve.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=fonts-font-logos.git;a=summary">fonts-font-logos.git</a></td>
+<td><a class="list" href="/?p=fonts-font-logos.git;a=summary" title="Icon font for Linux Distributions and FOSS">Icon font for Linux Distributi... </a></td>
+<td class="age2">14 months ago</td>
+<td class="link"><a href="/?p=fonts-font-logos.git;a=summary">summary</a> | <a href="/?p=fonts-font-logos.git;a=shortlog">shortlog</a> | <a href="/?p=fonts-font-logos.git;a=log">log</a> | <a href="/?p=fonts-font-logos.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=framework7.git;a=summary">framework7.git</a></td>
+<td><a class="list" href="/?p=framework7.git;a=summary" title="framework7 JS lib">framework7 JS lib</a></td>
+<td class="age2">17 months ago</td>
+<td class="link"><a href="/?p=framework7.git;a=summary">summary</a> | <a href="/?p=framework7.git;a=shortlog">shortlog</a> | <a href="/?p=framework7.git;a=log">log</a> | <a href="/?p=framework7.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=frr.git;a=summary">frr.git</a></td>
+<td><a class="list" href="/?p=frr.git;a=summary" title="FRRouting package">FRRouting package</a></td>
+<td class="age2">15 months ago</td>
+<td class="link"><a href="/?p=frr.git;a=summary">summary</a> | <a href="/?p=frr.git;a=shortlog">shortlog</a> | <a href="/?p=frr.git;a=log">log</a> | <a href="/?p=frr.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=fwupd-efi.git;a=summary">fwupd-efi.git</a></td>
+<td><a class="list" href="/?p=fwupd-efi.git;a=summary" title="fwupd EFI capsule uptdater executable for Proxmox projects">fwupd EFI capsule uptdater... </a></td>
+<td class="age2">20 months ago</td>
+<td class="link"><a href="/?p=fwupd-efi.git;a=summary">summary</a> | <a href="/?p=fwupd-efi.git;a=shortlog">shortlog</a> | <a href="/?p=fwupd-efi.git;a=log">log</a> | <a href="/?p=fwupd-efi.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=fwupd.git;a=summary">fwupd.git</a></td>
+<td><a class="list" href="/?p=fwupd.git;a=summary" title="A system daemon to allow session software to update firmware, adapted for Proxmox Secure Boot support">A system daemon to allow sessi... </a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=fwupd.git;a=summary">summary</a> | <a href="/?p=fwupd.git;a=shortlog">shortlog</a> | <a href="/?p=fwupd.git;a=log">log</a> | <a href="/?p=fwupd.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=grub2.git;a=summary">grub2.git</a></td>
+<td><a class="list" href="/?p=grub2.git;a=summary" title="The GNU GRand Unified Bootloader for Proxmox projects">The GNU GRand Unified Bootload... </a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=grub2.git;a=summary">summary</a> | <a href="/?p=grub2.git;a=shortlog">shortlog</a> | <a href="/?p=grub2.git;a=log">log</a> | <a href="/?p=grub2.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=ifupdown2.git;a=summary">ifupdown2.git</a></td>
+<td><a class="list" href="/?p=ifupdown2.git;a=summary" title="ifupdown2 for PVE">ifupdown2 for PVE</a></td>
+<td class="age2">5 weeks ago</td>
+<td class="link"><a href="/?p=ifupdown2.git;a=summary">summary</a> | <a href="/?p=ifupdown2.git;a=shortlog">shortlog</a> | <a href="/?p=ifupdown2.git;a=log">log</a> | <a href="/?p=ifupdown2.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=iproute2.git;a=summary">iproute2.git</a></td>
+<td><a class="list" href="/?p=iproute2.git;a=summary" title="iproute2 debian package">iproute2 debian package</a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=iproute2.git;a=summary">summary</a> | <a href="/?p=iproute2.git;a=shortlog">shortlog</a> | <a href="/?p=iproute2.git;a=log">log</a> | <a href="/?p=iproute2.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=kronosnet.git;a=summary">kronosnet.git</a></td>
+<td><a class="list" href="/?p=kronosnet.git;a=summary" title="kronosnet for Proxmox VE">kronosnet for Proxmox VE</a></td>
+<td class="age2">14 months ago</td>
+<td class="link"><a href="/?p=kronosnet.git;a=summary">summary</a> | <a href="/?p=kronosnet.git;a=shortlog">shortlog</a> | <a href="/?p=kronosnet.git;a=log">log</a> | <a href="/?p=kronosnet.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=ksm-control-daemon.git;a=summary">ksm-control-daemon.git</a></td>
+<td><a class="list" href="/?p=ksm-control-daemon.git;a=summary" title="KSM tuning daemon">KSM tuning daemon</a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=ksm-control-daemon.git;a=summary">summary</a> | <a href="/?p=ksm-control-daemon.git;a=shortlog">shortlog</a> | <a href="/?p=ksm-control-daemon.git;a=log">log</a> | <a href="/?p=ksm-control-daemon.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=libanyevent-http-perl.git;a=summary">libanyevent-http-perl.git</a></td>
+<td><a class="list" href="/?p=libanyevent-http-perl.git;a=summary" title="AnyEvent HTTP library Perl bindings">AnyEvent HTTP library Perl... </a></td>
+<td class="age2">8 years ago</td>
+<td class="link"><a href="/?p=libanyevent-http-perl.git;a=summary">summary</a> | <a href="/?p=libanyevent-http-perl.git;a=shortlog">shortlog</a> | <a href="/?p=libanyevent-http-perl.git;a=log">log</a> | <a href="/?p=libanyevent-http-perl.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=libarchive-perl.git;a=summary">libarchive-perl.git</a></td>
+<td><a class="list" href="/?p=libarchive-perl.git;a=summary" title="libarchive perl bindings">libarchive perl bindings</a></td>
+<td class="age2">18 months ago</td>
+<td class="link"><a href="/?p=libarchive-perl.git;a=summary">summary</a> | <a href="/?p=libarchive-perl.git;a=shortlog">shortlog</a> | <a href="/?p=libarchive-perl.git;a=log">log</a> | <a href="/?p=libarchive-perl.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=libgit2.git;a=summary">libgit2.git</a></td>
+<td><a class="list" href="/?p=libgit2.git;a=summary" title="The git library used in some Proxmox tool chains">The git library used in some... </a></td>
+<td class="age2">2 months ago</td>
+<td class="link"><a href="/?p=libgit2.git;a=summary">summary</a> | <a href="/?p=libgit2.git;a=shortlog">shortlog</a> | <a href="/?p=libgit2.git;a=log">log</a> | <a href="/?p=libgit2.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=libgtk3-webkit-perl.git;a=summary">libgtk3-webkit-perl.git</a></td>
+<td><a class="list" href="/?p=libgtk3-webkit-perl.git;a=summary" title="Perl bindings for WebKit">Perl bindings for WebKit</a></td>
+<td class="age2">7 years ago</td>
+<td class="link"><a href="/?p=libgtk3-webkit-perl.git;a=summary">summary</a> | <a href="/?p=libgtk3-webkit-perl.git;a=shortlog">shortlog</a> | <a href="/?p=libgtk3-webkit-perl.git;a=log">log</a> | <a href="/?p=libgtk3-webkit-perl.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=libhttp-daemon-perl.git;a=summary">libhttp-daemon-perl.git</a></td>
+<td><a class="list" href="/?p=libhttp-daemon-perl.git;a=summary" title="backport from buster to stretch">backport from buster to stretch</a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=libhttp-daemon-perl.git;a=summary">summary</a> | <a href="/?p=libhttp-daemon-perl.git;a=shortlog">shortlog</a> | <a href="/?p=libhttp-daemon-perl.git;a=log">log</a> | <a href="/?p=libhttp-daemon-perl.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=libiscsi.git;a=summary">libiscsi.git</a></td>
+<td><a class="list" href="/?p=libiscsi.git;a=summary" title="iSCSI client shared library">iSCSI client shared library</a></td>
+<td class="age2">9 years ago</td>
+<td class="link"><a href="/?p=libiscsi.git;a=summary">summary</a> | <a href="/?p=libiscsi.git;a=shortlog">shortlog</a> | <a href="/?p=libiscsi.git;a=log">log</a> | <a href="/?p=libiscsi.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=libjs-qrcodejs.git;a=summary">libjs-qrcodejs.git</a></td>
+<td><a class="list" href="/?p=libjs-qrcodejs.git;a=summary" title="cross-browser compatible QR code JS library">cross-browser compatible QR... </a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=libjs-qrcodejs.git;a=summary">summary</a> | <a href="/?p=libjs-qrcodejs.git;a=shortlog">shortlog</a> | <a href="/?p=libjs-qrcodejs.git;a=log">log</a> | <a href="/?p=libjs-qrcodejs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=libpve-u2f-server-perl.git;a=summary">libpve-u2f-server-perl.git</a></td>
+<td><a class="list" href="/?p=libpve-u2f-server-perl.git;a=summary" title="Perl bindings for libu2f-server">Perl bindings for libu2f-server</a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=libpve-u2f-server-perl.git;a=summary">summary</a> | <a href="/?p=libpve-u2f-server-perl.git;a=shortlog">shortlog</a> | <a href="/?p=libpve-u2f-server-perl.git;a=log">log</a> | <a href="/?p=libpve-u2f-server-perl.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=libqb.git;a=summary">libqb.git</a></td>
+<td><a class="list" href="/?p=libqb.git;a=summary" title="IPC library">IPC library</a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=libqb.git;a=summary">summary</a> | <a href="/?p=libqb.git;a=shortlog">shortlog</a> | <a href="/?p=libqb.git;a=log">log</a> | <a href="/?p=libqb.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=librados2-perl.git;a=summary">librados2-perl.git</a></td>
+<td><a class="list" href="/?p=librados2-perl.git;a=summary" title="perl bindings for librados">perl bindings for librados</a></td>
+<td class="age2">16 months ago</td>
+<td class="link"><a href="/?p=librados2-perl.git;a=summary">summary</a> | <a href="/?p=librados2-perl.git;a=shortlog">shortlog</a> | <a href="/?p=librados2-perl.git;a=log">log</a> | <a href="/?p=librados2-perl.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=libtpms.git;a=summary">libtpms.git</a></td>
+<td><a class="list" href="/?p=libtpms.git;a=summary" title="Software TPM Library">Software TPM Library</a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=libtpms.git;a=summary">summary</a> | <a href="/?p=libtpms.git;a=shortlog">shortlog</a> | <a href="/?p=libtpms.git;a=log">log</a> | <a href="/?p=libtpms.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=libxdgmime-perl.git;a=summary">libxdgmime-perl.git</a></td>
+<td><a class="list" href="/?p=libxdgmime-perl.git;a=summary" title="libxdgmime perl bindings">libxdgmime perl bindings</a></td>
+<td class="age2">18 months ago</td>
+<td class="link"><a href="/?p=libxdgmime-perl.git;a=summary">summary</a> | <a href="/?p=libxdgmime-perl.git;a=shortlog">shortlog</a> | <a href="/?p=libxdgmime-perl.git;a=log">log</a> | <a href="/?p=libxdgmime-perl.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=lvm.git;a=summary">lvm.git</a></td>
+<td><a class="list" href="/?p=lvm.git;a=summary" title="LVM2 for PVE">LVM2 for PVE</a></td>
+<td class="age2">4 years ago</td>
+<td class="link"><a href="/?p=lvm.git;a=summary">summary</a> | <a href="/?p=lvm.git;a=shortlog">shortlog</a> | <a href="/?p=lvm.git;a=log">log</a> | <a href="/?p=lvm.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=lxc.git;a=summary">lxc.git</a></td>
+<td><a class="list" href="/?p=lxc.git;a=summary" title="latest lxc for pve (jessie)">latest lxc for pve (jessie)</a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=lxc.git;a=summary">summary</a> | <a href="/?p=lxc.git;a=shortlog">shortlog</a> | <a href="/?p=lxc.git;a=log">log</a> | <a href="/?p=lxc.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=lxcfs.git;a=summary">lxcfs.git</a></td>
+<td><a class="list" href="/?p=lxcfs.git;a=summary" title="lxcfs package for Proxmox VE">lxcfs package for Proxmox VE</a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=lxcfs.git;a=summary">summary</a> | <a href="/?p=lxcfs.git;a=shortlog">shortlog</a> | <a href="/?p=lxcfs.git;a=log">log</a> | <a href="/?p=lxcfs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=novnc-pve.git;a=summary">novnc-pve.git</a></td>
+<td><a class="list" href="/?p=novnc-pve.git;a=summary" title="noVNC package for Provmox VE">noVNC package for Provmox VE</a></td>
+<td class="age2">6 weeks ago</td>
+<td class="link"><a href="/?p=novnc-pve.git;a=summary">summary</a> | <a href="/?p=novnc-pve.git;a=shortlog">shortlog</a> | <a href="/?p=novnc-pve.git;a=log">log</a> | <a href="/?p=novnc-pve.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=ovs.git;a=summary">ovs.git</a></td>
+<td><a class="list" href="/?p=ovs.git;a=summary" title="openvswitch packages for PVE">openvswitch packages for PVE</a></td>
+<td class="age2">20 months ago</td>
+<td class="link"><a href="/?p=ovs.git;a=summary">summary</a> | <a href="/?p=ovs.git;a=shortlog">shortlog</a> | <a href="/?p=ovs.git;a=log">log</a> | <a href="/?p=ovs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=package-rebuilds.git;a=summary">package-rebuilds.git</a></td>
+<td><a class="list" href="/?p=package-rebuilds.git;a=summary" title="Repo collecting sources for various re-builds of (Debian) packages for Proxmox related fix-ups">Repo collecting sources for... </a></td>
+<td class="age2">2 months ago</td>
+<td class="link"><a href="/?p=package-rebuilds.git;a=summary">summary</a> | <a href="/?p=package-rebuilds.git;a=shortlog">shortlog</a> | <a href="/?p=package-rebuilds.git;a=log">log</a> | <a href="/?p=package-rebuilds.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pmg-api.git;a=summary">pmg-api.git</a></td>
+<td><a class="list" href="/?p=pmg-api.git;a=summary" title="PMG API">PMG API</a></td>
+<td class="age2">10 days ago</td>
+<td class="link"><a href="/?p=pmg-api.git;a=summary">summary</a> | <a href="/?p=pmg-api.git;a=shortlog">shortlog</a> | <a href="/?p=pmg-api.git;a=log">log</a> | <a href="/?p=pmg-api.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pmg-docs.git;a=summary">pmg-docs.git</a></td>
+<td><a class="list" href="/?p=pmg-docs.git;a=summary" title="PMG Documentation">PMG Documentation</a></td>
+<td class="age2">10 days ago</td>
+<td class="link"><a href="/?p=pmg-docs.git;a=summary">summary</a> | <a href="/?p=pmg-docs.git;a=shortlog">shortlog</a> | <a href="/?p=pmg-docs.git;a=log">log</a> | <a href="/?p=pmg-docs.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pmg-gui.git;a=summary">pmg-gui.git</a></td>
+<td><a class="list" href="/?p=pmg-gui.git;a=summary" title="PMG GUI">PMG GUI</a></td>
+<td class="age2">10 days ago</td>
+<td class="link"><a href="/?p=pmg-gui.git;a=summary">summary</a> | <a href="/?p=pmg-gui.git;a=shortlog">shortlog</a> | <a href="/?p=pmg-gui.git;a=log">log</a> | <a href="/?p=pmg-gui.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pmg-log-tracker.git;a=summary">pmg-log-tracker.git</a></td>
+<td><a class="list" href="/?p=pmg-log-tracker.git;a=summary" title="PMG log tracker">PMG log tracker</a></td>
+<td class="age2">2 months ago</td>
+<td class="link"><a href="/?p=pmg-log-tracker.git;a=summary">summary</a> | <a href="/?p=pmg-log-tracker.git;a=shortlog">shortlog</a> | <a href="/?p=pmg-log-tracker.git;a=log">log</a> | <a href="/?p=pmg-log-tracker.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-acme.git;a=summary">proxmox-acme.git</a></td>
+<td><a class="list" href="/?p=proxmox-acme.git;a=summary" title="ACME library and helpers for perl based Proxmox projects">ACME library and helpers for... </a></td>
+<td class="age2">7 months ago</td>
+<td class="link"><a href="/?p=proxmox-acme.git;a=summary">summary</a> | <a href="/?p=proxmox-acme.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-acme.git;a=log">log</a> | <a href="/?p=proxmox-acme.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-archive-keyring.git;a=summary">proxmox-archive-keyring.git</a></td>
+<td><a class="list" href="/?p=proxmox-archive-keyring.git;a=summary" title="Proxmox APT archive keyring">Proxmox APT archive keyring</a></td>
+<td class="age2">9 days ago</td>
+<td class="link"><a href="/?p=proxmox-archive-keyring.git;a=summary">summary</a> | <a href="/?p=proxmox-archive-keyring.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-archive-keyring.git;a=log">log</a> | <a href="/?p=proxmox-archive-keyring.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-i18n.git;a=summary">proxmox-i18n.git</a></td>
+<td><a class="list" href="/?p=proxmox-i18n.git;a=summary" title="translations">translations</a></td>
+<td class="age2">3 weeks ago</td>
+<td class="link"><a href="/?p=proxmox-i18n.git;a=summary">summary</a> | <a href="/?p=proxmox-i18n.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-i18n.git;a=log">log</a> | <a href="/?p=proxmox-i18n.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-kernel-helper.git;a=summary">proxmox-kernel-helper.git</a></td>
+<td><a class="list" href="/?p=proxmox-kernel-helper.git;a=summary" title="Proxmox Kernel &amp; Boot Helpers">Proxmox Kernel &amp; Boot Helpers</a></td>
+<td class="age2">12 months ago</td>
+<td class="link"><a href="/?p=proxmox-kernel-helper.git;a=summary">summary</a> | <a href="/?p=proxmox-kernel-helper.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-kernel-helper.git;a=log">log</a> | <a href="/?p=proxmox-kernel-helper.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-mailgateway.git;a=summary">proxmox-mailgateway.git</a></td>
+<td><a class="list" href="/?p=proxmox-mailgateway.git;a=summary" title="PMG virtual package">PMG virtual package</a></td>
+<td class="age2">9 months ago</td>
+<td class="link"><a href="/?p=proxmox-mailgateway.git;a=summary">summary</a> | <a href="/?p=proxmox-mailgateway.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-mailgateway.git;a=log">log</a> | <a href="/?p=proxmox-mailgateway.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-mini-journalreader.git;a=summary">proxmox-mini-journalreader.git</a></td>
+<td><a class="list" href="/?p=proxmox-mini-journalreader.git;a=summary" title="fast systemd journal reader">fast systemd journal reader</a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=proxmox-mini-journalreader.git;a=summary">summary</a> | <a href="/?p=proxmox-mini-journalreader.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-mini-journalreader.git;a=log">log</a> | <a href="/?p=proxmox-mini-journalreader.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-secure-boot-support.git;a=summary">proxmox-secure-boot-support.git</a></td>
+<td><a class="list" href="/?p=proxmox-secure-boot-support.git;a=summary" title="Meta-package to control installation of signed Secure Boot related packages">Meta-package to control instal... </a></td>
+<td class="age2">5 months ago</td>
+<td class="link"><a href="/?p=proxmox-secure-boot-support.git;a=summary">summary</a> | <a href="/?p=proxmox-secure-boot-support.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-secure-boot-support.git;a=log">log</a> | <a href="/?p=proxmox-secure-boot-support.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-spamassassin.git;a=summary">proxmox-spamassassin.git</a></td>
+<td><a class="list" href="/?p=proxmox-spamassassin.git;a=summary" title="SA for PMG">SA for PMG</a></td>
+<td class="age2">6 months ago</td>
+<td class="link"><a href="/?p=proxmox-spamassassin.git;a=summary">summary</a> | <a href="/?p=proxmox-spamassassin.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-spamassassin.git;a=log">log</a> | <a href="/?p=proxmox-spamassassin.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-ve.git;a=summary">proxmox-ve.git</a></td>
+<td><a class="list" href="/?p=proxmox-ve.git;a=summary" title="top level meta package">top level meta package</a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=proxmox-ve.git;a=summary">summary</a> | <a href="/?p=proxmox-ve.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-ve.git;a=log">log</a> | <a href="/?p=proxmox-ve.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-widget-toolkit.git;a=summary">proxmox-widget-toolkit.git</a></td>
+<td><a class="list" href="/?p=proxmox-widget-toolkit.git;a=summary" title="Proxmox ExtJS Helpers">Proxmox ExtJS Helpers</a></td>
+<td class="age2">3 weeks ago</td>
+<td class="link"><a href="/?p=proxmox-widget-toolkit.git;a=summary">summary</a> | <a href="/?p=proxmox-widget-toolkit.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-widget-toolkit.git;a=log">log</a> | <a href="/?p=proxmox-widget-toolkit.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-access-control.git;a=summary">pve-access-control.git</a></td>
+<td><a class="list" href="/?p=pve-access-control.git;a=summary" title="Access control framework">Access control framework</a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=pve-access-control.git;a=summary">summary</a> | <a href="/?p=pve-access-control.git;a=shortlog">shortlog</a> | <a href="/?p=pve-access-control.git;a=log">log</a> | <a href="/?p=pve-access-control.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-apiclient.git;a=summary">pve-apiclient.git</a></td>
+<td><a class="list" href="/?p=pve-apiclient.git;a=summary" title="perl API client library">perl API client library</a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=pve-apiclient.git;a=summary">summary</a> | <a href="/?p=pve-apiclient.git;a=shortlog">shortlog</a> | <a href="/?p=pve-apiclient.git;a=log">log</a> | <a href="/?p=pve-apiclient.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-client.git;a=summary">pve-client.git</a></td>
+<td><a class="list" href="/?p=pve-client.git;a=summary" title="experimental perl client">experimental perl client</a></td>
+<td class="age2">6 years ago</td>
+<td class="link"><a href="/?p=pve-client.git;a=summary">summary</a> | <a href="/?p=pve-client.git;a=shortlog">shortlog</a> | <a href="/?p=pve-client.git;a=log">log</a> | <a href="/?p=pve-client.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-cluster.git;a=summary">pve-cluster.git</a></td>
+<td><a class="list" href="/?p=pve-cluster.git;a=summary" title="Cluster FS and Tools">Cluster FS and Tools</a></td>
+<td class="age2">5 weeks ago</td>
+<td class="link"><a href="/?p=pve-cluster.git;a=summary">summary</a> | <a href="/?p=pve-cluster.git;a=shortlog">shortlog</a> | <a href="/?p=pve-cluster.git;a=log">log</a> | <a href="/?p=pve-cluster.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-common.git;a=summary">pve-common.git</a></td>
+<td><a class="list" href="/?p=pve-common.git;a=summary" title="Common code">Common code</a></td>
+<td class="age2">5 weeks ago</td>
+<td class="link"><a href="/?p=pve-common.git;a=summary">summary</a> | <a href="/?p=pve-common.git;a=shortlog">shortlog</a> | <a href="/?p=pve-common.git;a=log">log</a> | <a href="/?p=pve-common.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-container.git;a=summary">pve-container.git</a></td>
+<td><a class="list" href="/?p=pve-container.git;a=summary" title="PVE Container Toolkit">PVE Container Toolkit</a></td>
+<td class="age2">5 days ago</td>
+<td class="link"><a href="/?p=pve-container.git;a=summary">summary</a> | <a href="/?p=pve-container.git;a=shortlog">shortlog</a> | <a href="/?p=pve-container.git;a=log">log</a> | <a href="/?p=pve-container.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-docs.git;a=summary">pve-docs.git</a></td>
+<td><a class="list" href="/?p=pve-docs.git;a=summary" title="PVE Documentation">PVE Documentation</a></td>
+<td class="age2">2 weeks ago</td>
+<td class="link"><a href="/?p=pve-docs.git;a=summary">summary</a> | <a href="/?p=pve-docs.git;a=shortlog">shortlog</a> | <a href="/?p=pve-docs.git;a=log">log</a> | <a href="/?p=pve-docs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-edk2-firmware.git;a=summary">pve-edk2-firmware.git</a></td>
+<td><a class="list" href="/?p=pve-edk2-firmware.git;a=summary" title="EDK2 Firmware for PVE">EDK2 Firmware for PVE</a></td>
+<td class="age2">9 months ago</td>
+<td class="link"><a href="/?p=pve-edk2-firmware.git;a=summary">summary</a> | <a href="/?p=pve-edk2-firmware.git;a=shortlog">shortlog</a> | <a href="/?p=pve-edk2-firmware.git;a=log">log</a> | <a href="/?p=pve-edk2-firmware.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-eslint.git;a=summary">pve-eslint.git</a></td>
+<td><a class="list" href="/?p=pve-eslint.git;a=summary" title="eslint packaged for Proxmox projects">eslint packaged for Proxmox... </a></td>
+<td class="age2">15 months ago</td>
+<td class="link"><a href="/?p=pve-eslint.git;a=summary">summary</a> | <a href="/?p=pve-eslint.git;a=shortlog">shortlog</a> | <a href="/?p=pve-eslint.git;a=log">log</a> | <a href="/?p=pve-eslint.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-firewall.git;a=summary">pve-firewall.git</a></td>
+<td><a class="list" href="/?p=pve-firewall.git;a=summary" title="Firewall test scripts">Firewall test scripts</a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=pve-firewall.git;a=summary">summary</a> | <a href="/?p=pve-firewall.git;a=shortlog">shortlog</a> | <a href="/?p=pve-firewall.git;a=log">log</a> | <a href="/?p=pve-firewall.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-firmware.git;a=summary">pve-firmware.git</a></td>
+<td><a class="list" href="/?p=pve-firmware.git;a=summary" title="Firmware for pve-kernel">Firmware for pve-kernel</a></td>
+<td class="age2">2 weeks ago</td>
+<td class="link"><a href="/?p=pve-firmware.git;a=summary">summary</a> | <a href="/?p=pve-firmware.git;a=shortlog">shortlog</a> | <a href="/?p=pve-firmware.git;a=log">log</a> | <a href="/?p=pve-firmware.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-guest-common.git;a=summary">pve-guest-common.git</a></td>
+<td><a class="list" href="/?p=pve-guest-common.git;a=summary" title="guest-related modules">guest-related modules</a></td>
+<td class="age2">5 weeks ago</td>
+<td class="link"><a href="/?p=pve-guest-common.git;a=summary">summary</a> | <a href="/?p=pve-guest-common.git;a=shortlog">shortlog</a> | <a href="/?p=pve-guest-common.git;a=log">log</a> | <a href="/?p=pve-guest-common.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-ha-manager.git;a=summary">pve-ha-manager.git</a></td>
+<td><a class="list" href="/?p=pve-ha-manager.git;a=summary" title="PVE HA Manager">PVE HA Manager</a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=pve-ha-manager.git;a=summary">summary</a> | <a href="/?p=pve-ha-manager.git;a=shortlog">shortlog</a> | <a href="/?p=pve-ha-manager.git;a=log">log</a> | <a href="/?p=pve-ha-manager.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-http-server.git;a=summary">pve-http-server.git</a></td>
+<td><a class="list" href="/?p=pve-http-server.git;a=summary" title="PVE HTTP Server">PVE HTTP Server</a></td>
+<td class="age2">2 months ago</td>
+<td class="link"><a href="/?p=pve-http-server.git;a=summary">summary</a> | <a href="/?p=pve-http-server.git;a=shortlog">shortlog</a> | <a href="/?p=pve-http-server.git;a=log">log</a> | <a href="/?p=pve-http-server.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-installer.git;a=summary">pve-installer.git</a></td>
+<td><a class="list" href="/?p=pve-installer.git;a=summary" title="Bare Metal Installer ">Bare Metal Installer </a></td>
+<td class="age2">6 days ago</td>
+<td class="link"><a href="/?p=pve-installer.git;a=summary">summary</a> | <a href="/?p=pve-installer.git;a=shortlog">shortlog</a> | <a href="/?p=pve-installer.git;a=log">log</a> | <a href="/?p=pve-installer.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-jslint.git;a=summary">pve-jslint.git</a></td>
+<td><a class="list" href="/?p=pve-jslint.git;a=summary" title="JSLint for PVE development">JSLint for PVE development</a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=pve-jslint.git;a=summary">summary</a> | <a href="/?p=pve-jslint.git;a=shortlog">shortlog</a> | <a href="/?p=pve-jslint.git;a=log">log</a> | <a href="/?p=pve-jslint.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-kernel-meta.git;a=summary">pve-kernel-meta.git</a></td>
+<td><a class="list" href="/?p=pve-kernel-meta.git;a=summary" title="kernel meta packages">kernel meta packages</a></td>
+<td class="age2">4 months ago</td>
+<td class="link"><a href="/?p=pve-kernel-meta.git;a=summary">summary</a> | <a href="/?p=pve-kernel-meta.git;a=shortlog">shortlog</a> | <a href="/?p=pve-kernel-meta.git;a=log">log</a> | <a href="/?p=pve-kernel-meta.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-kernel.git;a=summary">pve-kernel.git</a></td>
+<td><a class="list" href="/?p=pve-kernel.git;a=summary" title="Linux Kernel for Proxmox projects">Linux Kernel for Proxmox projects</a></td>
+<td class="age2">5 days ago</td>
+<td class="link"><a href="/?p=pve-kernel.git;a=summary">summary</a> | <a href="/?p=pve-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=pve-kernel.git;a=log">log</a> | <a href="/?p=pve-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-libseccomp2.4-dev.git;a=summary">pve-libseccomp2.4-dev.git</a></td>
+<td><a class="list" href="/?p=pve-libseccomp2.4-dev.git;a=summary" title="libseccomp packages for Promox VE 6">libseccomp packages for Promox... </a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=pve-libseccomp2.4-dev.git;a=summary">summary</a> | <a href="/?p=pve-libseccomp2.4-dev.git;a=shortlog">shortlog</a> | <a href="/?p=pve-libseccomp2.4-dev.git;a=log">log</a> | <a href="/?p=pve-libseccomp2.4-dev.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-libspice-server.git;a=summary">pve-libspice-server.git</a></td>
+<td><a class="list" href="/?p=pve-libspice-server.git;a=summary" title="SPICE display server libraries">SPICE display server libraries</a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=pve-libspice-server.git;a=summary">summary</a> | <a href="/?p=pve-libspice-server.git;a=shortlog">shortlog</a> | <a href="/?p=pve-libspice-server.git;a=log">log</a> | <a href="/?p=pve-libspice-server.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-lxc-syscalld.git;a=summary">pve-lxc-syscalld.git</a></td>
+<td><a class="list" href="/?p=pve-lxc-syscalld.git;a=summary" title="seccomp syscall proxy for PVE LXC containers">seccomp syscall proxy for... </a></td>
+<td class="age2">4 months ago</td>
+<td class="link"><a href="/?p=pve-lxc-syscalld.git;a=summary">summary</a> | <a href="/?p=pve-lxc-syscalld.git;a=shortlog">shortlog</a> | <a href="/?p=pve-lxc-syscalld.git;a=log">log</a> | <a href="/?p=pve-lxc-syscalld.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-manager.git;a=summary">pve-manager.git</a></td>
+<td><a class="list" href="/?p=pve-manager.git;a=summary" title="The Proxmox VE Management API and Web UI">The Proxmox VE Management... </a></td>
+<td class="age2">5 days ago</td>
+<td class="link"><a href="/?p=pve-manager.git;a=summary">summary</a> | <a href="/?p=pve-manager.git;a=shortlog">shortlog</a> | <a href="/?p=pve-manager.git;a=log">log</a> | <a href="/?p=pve-manager.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-network.git;a=summary">pve-network.git</a></td>
+<td><a class="list" href="/?p=pve-network.git;a=summary" title="experimental SDN package">experimental SDN package</a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=pve-network.git;a=summary">summary</a> | <a href="/?p=pve-network.git;a=shortlog">shortlog</a> | <a href="/?p=pve-network.git;a=log">log</a> | <a href="/?p=pve-network.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-omping.git;a=summary">pve-omping.git</a></td>
+<td><a class="list" href="/?p=pve-omping.git;a=summary" title="omping - test IP multicast tool">omping - test IP multicast... </a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=pve-omping.git;a=summary">summary</a> | <a href="/?p=pve-omping.git;a=shortlog">shortlog</a> | <a href="/?p=pve-omping.git;a=log">log</a> | <a href="/?p=pve-omping.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-qemu.git;a=summary">pve-qemu.git</a></td>
+<td><a class="list" href="/?p=pve-qemu.git;a=summary" title="QEMU for PVE">QEMU for PVE</a></td>
+<td class="age2">13 days ago</td>
+<td class="link"><a href="/?p=pve-qemu.git;a=summary">summary</a> | <a href="/?p=pve-qemu.git;a=shortlog">shortlog</a> | <a href="/?p=pve-qemu.git;a=log">log</a> | <a href="/?p=pve-qemu.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-spice-protocol.git;a=summary">pve-spice-protocol.git</a></td>
+<td><a class="list" href="/?p=pve-spice-protocol.git;a=summary" title="SPICE protocol dev package">SPICE protocol dev package</a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=pve-spice-protocol.git;a=summary">summary</a> | <a href="/?p=pve-spice-protocol.git;a=shortlog">shortlog</a> | <a href="/?p=pve-spice-protocol.git;a=log">log</a> | <a href="/?p=pve-spice-protocol.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-storage.git;a=summary">pve-storage.git</a></td>
+<td><a class="list" href="/?p=pve-storage.git;a=summary" title="Storage library">Storage library</a></td>
+<td class="age2">5 days ago</td>
+<td class="link"><a href="/?p=pve-storage.git;a=summary">summary</a> | <a href="/?p=pve-storage.git;a=shortlog">shortlog</a> | <a href="/?p=pve-storage.git;a=log">log</a> | <a href="/?p=pve-storage.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-xtermjs.git;a=summary">pve-xtermjs.git</a></td>
+<td><a class="list" href="/?p=pve-xtermjs.git;a=summary" title="xterm.js webclient ">xterm.js webclient </a></td>
+<td class="age2">4 months ago</td>
+<td class="link"><a href="/?p=pve-xtermjs.git;a=summary">summary</a> | <a href="/?p=pve-xtermjs.git;a=shortlog">shortlog</a> | <a href="/?p=pve-xtermjs.git;a=log">log</a> | <a href="/?p=pve-xtermjs.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-zsync.git;a=summary">pve-zsync.git</a></td>
+<td><a class="list" href="/?p=pve-zsync.git;a=summary" title="zfs sync tool">zfs sync tool</a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=pve-zsync.git;a=summary">summary</a> | <a href="/?p=pve-zsync.git;a=shortlog">shortlog</a> | <a href="/?p=pve-zsync.git;a=log">log</a> | <a href="/?p=pve-zsync.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=qemu-defaults.git;a=summary">qemu-defaults.git</a></td>
+<td><a class="list" href="/?p=qemu-defaults.git;a=summary" title="epxerimental code - do not use this">epxerimental code - do not... </a></td>
+<td class="age2">10 years ago</td>
+<td class="link"><a href="/?p=qemu-defaults.git;a=summary">summary</a> | <a href="/?p=qemu-defaults.git;a=shortlog">shortlog</a> | <a href="/?p=qemu-defaults.git;a=log">log</a> | <a href="/?p=qemu-defaults.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=qemu-server.git;a=summary">qemu-server.git</a></td>
+<td><a class="list" href="/?p=qemu-server.git;a=summary" title="Virtual Machine Manager">Virtual Machine Manager</a></td>
+<td class="age2">6 days ago</td>
+<td class="link"><a href="/?p=qemu-server.git;a=summary">summary</a> | <a href="/?p=qemu-server.git;a=shortlog">shortlog</a> | <a href="/?p=qemu-server.git;a=log">log</a> | <a href="/?p=qemu-server.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=qemu.git;a=summary">qemu.git</a></td>
+<td><a class="list" href="/?p=qemu.git;a=summary" title="Qemu copy for testing">Qemu copy for testing</a></td>
+<td class="age2">11 years ago</td>
+<td class="link"><a href="/?p=qemu.git;a=summary">summary</a> | <a href="/?p=qemu.git;a=shortlog">shortlog</a> | <a href="/?p=qemu.git;a=log">log</a> | <a href="/?p=qemu.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=sencha-touch.git;a=summary">sencha-touch.git</a></td>
+<td><a class="list" href="/?p=sencha-touch.git;a=summary" title="The (legacy) mobile UI framework used in Proxmox VE">The (legacy) mobile UI framewo... </a></td>
+<td class="age2">18 months ago</td>
+<td class="link"><a href="/?p=sencha-touch.git;a=summary">summary</a> | <a href="/?p=sencha-touch.git;a=shortlog">shortlog</a> | <a href="/?p=sencha-touch.git;a=log">log</a> | <a href="/?p=sencha-touch.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=shim-signed.git;a=summary">shim-signed.git</a></td>
+<td><a class="list" href="/?p=shim-signed.git;a=summary" title="Secure Boot chain-loading bootloader signed for Proxmox Projects">Secure Boot chain-loading... </a></td>
+<td class="age2">5 months ago</td>
+<td class="link"><a href="/?p=shim-signed.git;a=summary">summary</a> | <a href="/?p=shim-signed.git;a=shortlog">shortlog</a> | <a href="/?p=shim-signed.git;a=log">log</a> | <a href="/?p=shim-signed.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=smartmontools.git;a=summary">smartmontools.git</a></td>
+<td><a class="list" href="/?p=smartmontools.git;a=summary" title="smartmontools backport">smartmontools backport</a></td>
+<td class="age2">18 months ago</td>
+<td class="link"><a href="/?p=smartmontools.git;a=summary">summary</a> | <a href="/?p=smartmontools.git;a=shortlog">shortlog</a> | <a href="/?p=smartmontools.git;a=log">log</a> | <a href="/?p=smartmontools.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=spiceterm.git;a=summary">spiceterm.git</a></td>
+<td><a class="list" href="/?p=spiceterm.git;a=summary" title="SPICE terminal emulator">SPICE terminal emulator</a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=spiceterm.git;a=summary">summary</a> | <a href="/?p=spiceterm.git;a=shortlog">shortlog</a> | <a href="/?p=spiceterm.git;a=log">log</a> | <a href="/?p=spiceterm.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=swtpm.git;a=summary">swtpm.git</a></td>
+<td><a class="list" href="/?p=swtpm.git;a=summary" title="Software TPM used for PVE's Virtual Machines">Software TPM used for PVE... </a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=swtpm.git;a=summary">summary</a> | <a href="/?p=swtpm.git;a=shortlog">shortlog</a> | <a href="/?p=swtpm.git;a=log">log</a> | <a href="/?p=swtpm.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=systemd.git;a=summary">systemd.git</a></td>
+<td><a class="list" href="/?p=systemd.git;a=summary" title="systemd for Proxmox projects">systemd for Proxmox projects</a></td>
+<td class="age2">17 months ago</td>
+<td class="link"><a href="/?p=systemd.git;a=summary">summary</a> | <a href="/?p=systemd.git;a=shortlog">shortlog</a> | <a href="/?p=systemd.git;a=log">log</a> | <a href="/?p=systemd.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=tar.git;a=summary">tar.git</a></td>
+<td><a class="list" href="/?p=tar.git;a=summary" title="backport to fix bug #737226">backport to fix bug #737226</a></td>
+<td class="age2">6 years ago</td>
+<td class="link"><a href="/?p=tar.git;a=summary">summary</a> | <a href="/?p=tar.git;a=shortlog">shortlog</a> | <a href="/?p=tar.git;a=log">log</a> | <a href="/?p=tar.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=vncterm.git;a=summary">vncterm.git</a></td>
+<td><a class="list" href="/?p=vncterm.git;a=summary" title="VNC Terminal Emulator">VNC Terminal Emulator</a></td>
+<td class="age2">18 months ago</td>
+<td class="link"><a href="/?p=vncterm.git;a=summary">summary</a> | <a href="/?p=vncterm.git;a=shortlog">shortlog</a> | <a href="/?p=vncterm.git;a=log">log</a> | <a href="/?p=vncterm.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=zfs-grub.git;a=summary">zfs-grub.git</a></td>
+<td><a class="list" href="/?p=zfs-grub.git;a=summary" title="grub backport with zfs enabled">grub backport with zfs enabled</a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=zfs-grub.git;a=summary">summary</a> | <a href="/?p=zfs-grub.git;a=shortlog">shortlog</a> | <a href="/?p=zfs-grub.git;a=log">log</a> | <a href="/?p=zfs-grub.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=zfsonlinux.git;a=summary">zfsonlinux.git</a></td>
+<td><a class="list" href="/?p=zfsonlinux.git;a=summary" title="ZFS on Linux kernel module and userland packages for Proxmox projects">ZFS on Linux kernel module... </a></td>
+<td class="age2">2 months ago</td>
+<td class="link"><a href="/?p=zfsonlinux.git;a=summary">summary</a> | <a href="/?p=zfsonlinux.git;a=shortlog">shortlog</a> | <a href="/?p=zfsonlinux.git;a=log">log</a> | <a href="/?p=zfsonlinux.git;a=tree">tree</a></td>
+</tr>
+<tr>
+<td class="category" colspan="5">User Interface &amp; Related Tooling</td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=ui/proxmox-wasm-builder.git;a=summary">ui/proxmox-wasm-builder.git</a></td>
+<td><a class="list" href="/?p=ui/proxmox-wasm-builder.git;a=summary" title="Tool to build rust programs to WASM for the web">Tool to build rust programs... </a></td>
+<td class="age2">11 days ago</td>
+<td class="link"><a href="/?p=ui/proxmox-wasm-builder.git;a=summary">summary</a> | <a href="/?p=ui/proxmox-wasm-builder.git;a=shortlog">shortlog</a> | <a href="/?p=ui/proxmox-wasm-builder.git;a=log">log</a> | <a href="/?p=ui/proxmox-wasm-builder.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=ui/proxmox-yew-comp.git;a=summary">ui/proxmox-yew-comp.git</a></td>
+<td><a class="list" href="/?p=ui/proxmox-yew-comp.git;a=summary" title="Proxmox speficif and/or complex components for Yew/Rust based widget toolkit">Proxmox speficif and/or comple... </a></td>
+<td class="age2">5 days ago</td>
+<td class="link"><a href="/?p=ui/proxmox-yew-comp.git;a=summary">summary</a> | <a href="/?p=ui/proxmox-yew-comp.git;a=shortlog">shortlog</a> | <a href="/?p=ui/proxmox-yew-comp.git;a=log">log</a> | <a href="/?p=ui/proxmox-yew-comp.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=ui/proxmox-yew-widget-toolkit-assets.git;a=summary">ui/proxmox-yew-widget-toolkit-assets.git</a></td>
+<td><a class="list" href="/?p=ui/proxmox-yew-widget-toolkit-assets.git;a=summary" title="Assets for Yew/Rust based widget toolkit">Assets for Yew/Rust based... </a></td>
+<td class="age2">5 days ago</td>
+<td class="link"><a href="/?p=ui/proxmox-yew-widget-toolkit-assets.git;a=summary">summary</a> | <a href="/?p=ui/proxmox-yew-widget-toolkit-assets.git;a=shortlog">shortlog</a> | <a href="/?p=ui/proxmox-yew-widget-toolkit-assets.git;a=log">log</a> | <a href="/?p=ui/proxmox-yew-widget-toolkit-assets.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=ui/proxmox-yew-widget-toolkit-examples.git;a=summary">ui/proxmox-yew-widget-toolkit-examples.git</a></td>
+<td><a class="list" href="/?p=ui/proxmox-yew-widget-toolkit-examples.git;a=summary" title="Examples for Yew/Rust based widget toolkit">Examples for Yew/Rust based... </a></td>
+<td class="age2">5 days ago</td>
+<td class="link"><a href="/?p=ui/proxmox-yew-widget-toolkit-examples.git;a=summary">summary</a> | <a href="/?p=ui/proxmox-yew-widget-toolkit-examples.git;a=shortlog">shortlog</a> | <a href="/?p=ui/proxmox-yew-widget-toolkit-examples.git;a=log">log</a> | <a href="/?p=ui/proxmox-yew-widget-toolkit-examples.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=ui/proxmox-yew-widget-toolkit.git;a=summary">ui/proxmox-yew-widget-toolkit.git</a></td>
+<td><a class="list" href="/?p=ui/proxmox-yew-widget-toolkit.git;a=summary" title="Yew/Rust based widget toolkit">Yew/Rust based widget toolkit</a></td>
+<td class="age2">4 days ago</td>
+<td class="link"><a href="/?p=ui/proxmox-yew-widget-toolkit.git;a=summary">summary</a> | <a href="/?p=ui/proxmox-yew-widget-toolkit.git;a=shortlog">shortlog</a> | <a href="/?p=ui/proxmox-yew-widget-toolkit.git;a=log">log</a> | <a href="/?p=ui/proxmox-yew-widget-toolkit.git;a=tree">tree</a></td>
+</tr>
+<tr>
+<td class="category" colspan="5">flutter</td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=flutter/proxmox_dart_api_client.git;a=summary">flutter/proxmox_dart_api_client.git</a></td>
+<td><a class="list" href="/?p=flutter/proxmox_dart_api_client.git;a=summary" title="Pure Dart Proxmox VE API client library">Pure Dart Proxmox VE API clien... </a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=flutter/proxmox_dart_api_client.git;a=summary">summary</a> | <a href="/?p=flutter/proxmox_dart_api_client.git;a=shortlog">shortlog</a> | <a href="/?p=flutter/proxmox_dart_api_client.git;a=log">log</a> | <a href="/?p=flutter/proxmox_dart_api_client.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=flutter/proxmox_login_manager.git;a=summary">flutter/proxmox_login_manager.git</a></td>
+<td><a class="list" href="/?p=flutter/proxmox_login_manager.git;a=summary" title="flutter login widget for Proxmox VE">flutter login widget for Proxm... </a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=flutter/proxmox_login_manager.git;a=summary">summary</a> | <a href="/?p=flutter/proxmox_login_manager.git;a=shortlog">shortlog</a> | <a href="/?p=flutter/proxmox_login_manager.git;a=log">log</a> | <a href="/?p=flutter/proxmox_login_manager.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=flutter/pve_flutter_frontend.git;a=summary">flutter/pve_flutter_frontend.git</a></td>
+<td><a class="list" href="/?p=flutter/pve_flutter_frontend.git;a=summary" title="Flutter based mobile companion for Proxmox VE">Flutter based mobile companion... </a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=flutter/pve_flutter_frontend.git;a=summary">summary</a> | <a href="/?p=flutter/pve_flutter_frontend.git;a=shortlog">shortlog</a> | <a href="/?p=flutter/pve_flutter_frontend.git;a=log">log</a> | <a href="/?p=flutter/pve_flutter_frontend.git;a=tree">tree</a></td>
+</tr>
+<tr>
+<td class="category" colspan="5">rust</td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=cargo.git;a=summary">cargo.git</a></td>
+<td><a class="list" href="/?p=cargo.git;a=summary" title="backport for Debian buster">backport for Debian buster</a></td>
+<td class="age2">12 months ago</td>
+<td class="link"><a href="/?p=cargo.git;a=summary">summary</a> | <a href="/?p=cargo.git;a=shortlog">shortlog</a> | <a href="/?p=cargo.git;a=log">log</a> | <a href="/?p=cargo.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=debcargo-conf.git;a=summary">debcargo-conf.git</a></td>
+<td><a class="list" href="/?p=debcargo-conf.git;a=summary" title="backport for Debian buster">backport for Debian buster</a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=debcargo-conf.git;a=summary">summary</a> | <a href="/?p=debcargo-conf.git;a=shortlog">shortlog</a> | <a href="/?p=debcargo-conf.git;a=log">log</a> | <a href="/?p=debcargo-conf.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=dh-cargo.git;a=summary">dh-cargo.git</a></td>
+<td><a class="list" href="/?p=dh-cargo.git;a=summary" title="backport for Debian buster">backport for Debian buster</a></td>
+<td class="age2">3 years ago</td>
+<td class="link"><a href="/?p=dh-cargo.git;a=summary">summary</a> | <a href="/?p=dh-cargo.git;a=shortlog">shortlog</a> | <a href="/?p=dh-cargo.git;a=log">log</a> | <a href="/?p=dh-cargo.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=llvm-toolchain.git;a=summary">llvm-toolchain.git</a></td>
+<td><a class="list" href="/?p=llvm-toolchain.git;a=summary" title="backport for Debian buster">backport for Debian buster</a></td>
+<td class="age2">2 months ago</td>
+<td class="link"><a href="/?p=llvm-toolchain.git;a=summary">summary</a> | <a href="/?p=llvm-toolchain.git;a=shortlog">shortlog</a> | <a href="/?p=llvm-toolchain.git;a=log">log</a> | <a href="/?p=llvm-toolchain.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pathpatterns.git;a=summary">pathpatterns.git</a></td>
+<td><a class="list" href="/?p=pathpatterns.git;a=summary" title="Include/exclude path list implementation with git-like globbing support.">Include/exclude path list... </a></td>
+<td class="age2">6 months ago</td>
+<td class="link"><a href="/?p=pathpatterns.git;a=summary">summary</a> | <a href="/?p=pathpatterns.git;a=shortlog">shortlog</a> | <a href="/?p=pathpatterns.git;a=log">log</a> | <a href="/?p=pathpatterns.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=perlmod.git;a=summary">perlmod.git</a></td>
+<td><a class="list" href="/?p=perlmod.git;a=summary" title="alternative to perl XS for RUST">alternative to perl XS for... </a></td>
+<td class="age2">4 months ago</td>
+<td class="link"><a href="/?p=perlmod.git;a=summary">summary</a> | <a href="/?p=perlmod.git;a=shortlog">shortlog</a> | <a href="/?p=perlmod.git;a=log">log</a> | <a href="/?p=perlmod.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pmg-rs.git;a=summary">pmg-rs.git</a></td>
+<td><a class="list" href="/?p=pmg-rs.git;a=summary" title="Proxmox Mail Gateway rust based/ported helper">Proxmox Mail Gateway rust... </a></td>
+<td class="age2">2 years ago</td>
+<td class="link"><a href="/?p=pmg-rs.git;a=summary">summary</a> | <a href="/?p=pmg-rs.git;a=shortlog">shortlog</a> | <a href="/?p=pmg-rs.git;a=log">log</a> | <a href="/?p=pmg-rs.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-acme-rs.git;a=summary">proxmox-acme-rs.git</a></td>
+<td><a class="list" href="/?p=proxmox-acme-rs.git;a=summary" title="ACME client library">ACME client library</a></td>
+<td class="age2">12 months ago</td>
+<td class="link"><a href="/?p=proxmox-acme-rs.git;a=summary">summary</a> | <a href="/?p=proxmox-acme-rs.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-acme-rs.git;a=log">log</a> | <a href="/?p=proxmox-acme-rs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-api-types.git;a=summary">proxmox-api-types.git</a></td>
+<td><a class="list" href="/?p=proxmox-api-types.git;a=summary" title="API types for non-rust Proxmox projects and tooling for glue-code generation">API types for non-rust Proxmox... </a></td>
+<td class="age2">5 days ago</td>
+<td class="link"><a href="/?p=proxmox-api-types.git;a=summary">summary</a> | <a href="/?p=proxmox-api-types.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-api-types.git;a=log">log</a> | <a href="/?p=proxmox-api-types.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-apt.git;a=summary">proxmox-apt.git</a></td>
+<td><a class="list" href="/?p=proxmox-apt.git;a=summary" title="Proxmox APT parser and helpers">Proxmox APT parser and helpers</a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=proxmox-apt.git;a=summary">summary</a> | <a href="/?p=proxmox-apt.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-apt.git;a=log">log</a> | <a href="/?p=proxmox-apt.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-backup-meta.git;a=summary">proxmox-backup-meta.git</a></td>
+<td><a class="list" href="/?p=proxmox-backup-meta.git;a=summary" title="Proxmox Backup Server metapackage">Proxmox Backup Server metapackage</a></td>
+<td class="age2">3 weeks ago</td>
+<td class="link"><a href="/?p=proxmox-backup-meta.git;a=summary">summary</a> | <a href="/?p=proxmox-backup-meta.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-backup-meta.git;a=log">log</a> | <a href="/?p=proxmox-backup-meta.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-backup-qemu.git;a=summary">proxmox-backup-qemu.git</a></td>
+<td><a class="list" href="/?p=proxmox-backup-qemu.git;a=summary" title="dynamic lib to access proxmox backup server from qemu">dynamic lib to access proxmox... </a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=proxmox-backup-qemu.git;a=summary">summary</a> | <a href="/?p=proxmox-backup-qemu.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-backup-qemu.git;a=log">log</a> | <a href="/?p=proxmox-backup-qemu.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-backup-restore-image.git;a=summary">proxmox-backup-restore-image.git</a></td>
+<td><a class="list" href="/?p=proxmox-backup-restore-image.git;a=summary" title="Kernel/initramfs images for Proxmox Backup single file restore.">Kernel/initramfs images for... </a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=proxmox-backup-restore-image.git;a=summary">summary</a> | <a href="/?p=proxmox-backup-restore-image.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-backup-restore-image.git;a=log">log</a> | <a href="/?p=proxmox-backup-restore-image.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-backup.git;a=summary">proxmox-backup.git</a></td>
+<td><a class="list" href="/?p=proxmox-backup.git;a=summary" title="Proxmox Backup Server and Client">Proxmox Backup Server and... </a></td>
+<td class="age2">8 days ago</td>
+<td class="link"><a href="/?p=proxmox-backup.git;a=summary">summary</a> | <a href="/?p=proxmox-backup.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-backup.git;a=log">log</a> | <a href="/?p=proxmox-backup.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-datacenter-manager.git;a=summary">proxmox-datacenter-manager.git</a></td>
+<td><a class="list" href="/?p=proxmox-datacenter-manager.git;a=summary" title="Proxmox Datacenter Manager">Proxmox Datacenter Manager</a></td>
+<td class="age1">29 hours ago</td>
+<td class="link"><a href="/?p=proxmox-datacenter-manager.git;a=summary">summary</a> | <a href="/?p=proxmox-datacenter-manager.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-datacenter-manager.git;a=log">log</a> | <a href="/?p=proxmox-datacenter-manager.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-firewall.git;a=summary">proxmox-firewall.git</a></td>
+<td><a class="list" href="/?p=proxmox-firewall.git;a=summary" title="nftables based implementation of the Proxmox VE firewall, written in rust">nftables based implementation... </a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=proxmox-firewall.git;a=summary">summary</a> | <a href="/?p=proxmox-firewall.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-firewall.git;a=log">log</a> | <a href="/?p=proxmox-firewall.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-fuse.git;a=summary">proxmox-fuse.git</a></td>
+<td><a class="list" href="/?p=proxmox-fuse.git;a=summary" title="Expose fuse requests as async streams.">Expose fuse requests as async... </a></td>
+<td class="age2">9 months ago</td>
+<td class="link"><a href="/?p=proxmox-fuse.git;a=summary">summary</a> | <a href="/?p=proxmox-fuse.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-fuse.git;a=log">log</a> | <a href="/?p=proxmox-fuse.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-mail-forward.git;a=summary">proxmox-mail-forward.git</a></td>
+<td><a class="list" href="/?p=proxmox-mail-forward.git;a=summary" title="Helper tool to forward system mail to email of PVE/PMG/PBS root account">Helper tool to forward system... </a></td>
+<td class="age2">5 weeks ago</td>
+<td class="link"><a href="/?p=proxmox-mail-forward.git;a=summary">summary</a> | <a href="/?p=proxmox-mail-forward.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-mail-forward.git;a=log">log</a> | <a href="/?p=proxmox-mail-forward.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-offline-mirror.git;a=summary">proxmox-offline-mirror.git</a></td>
+<td><a class="list" href="/?p=proxmox-offline-mirror.git;a=summary" title="Proxmox Offline Mirror and Subscription Activation Tool">Proxmox Offline Mirror and... </a></td>
+<td class="age2">2 weeks ago</td>
+<td class="link"><a href="/?p=proxmox-offline-mirror.git;a=summary">summary</a> | <a href="/?p=proxmox-offline-mirror.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-offline-mirror.git;a=log">log</a> | <a href="/?p=proxmox-offline-mirror.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-openid-rs.git;a=summary">proxmox-openid-rs.git</a></td>
+<td><a class="list" href="/?p=proxmox-openid-rs.git;a=summary" title="Proxmox OpenID crate">Proxmox OpenID crate</a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=proxmox-openid-rs.git;a=summary">summary</a> | <a href="/?p=proxmox-openid-rs.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-openid-rs.git;a=log">log</a> | <a href="/?p=proxmox-openid-rs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-perl-rs.git;a=summary">proxmox-perl-rs.git</a></td>
+<td><a class="list" href="/?p=proxmox-perl-rs.git;a=summary" title="Proxmox rust interface for perl">Proxmox rust interface for... </a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=proxmox-perl-rs.git;a=summary">summary</a> | <a href="/?p=proxmox-perl-rs.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-perl-rs.git;a=log">log</a> | <a href="/?p=proxmox-perl-rs.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-resource-scheduling.git;a=summary">proxmox-resource-scheduling.git</a></td>
+<td><a class="list" href="/?p=proxmox-resource-scheduling.git;a=summary" title="rust module for CRS/TOPSIS">rust module for CRS/TOPSIS</a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=proxmox-resource-scheduling.git;a=summary">summary</a> | <a href="/?p=proxmox-resource-scheduling.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-resource-scheduling.git;a=log">log</a> | <a href="/?p=proxmox-resource-scheduling.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox-ve-rs.git;a=summary">proxmox-ve-rs.git</a></td>
+<td><a class="list" href="/?p=proxmox-ve-rs.git;a=summary" title="workspace for Proxmox VE related rust crates">workspace for Proxmox VE relat... </a></td>
+<td class="age2">7 days ago</td>
+<td class="link"><a href="/?p=proxmox-ve-rs.git;a=summary">summary</a> | <a href="/?p=proxmox-ve-rs.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-ve-rs.git;a=log">log</a> | <a href="/?p=proxmox-ve-rs.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=proxmox-websocket-tunnel.git;a=summary">proxmox-websocket-tunnel.git</a></td>
+<td><a class="list" href="/?p=proxmox-websocket-tunnel.git;a=summary" title="Proxmox websocket tunneling helper">Proxmox websocket tunneling... </a></td>
+<td class="age2">5 months ago</td>
+<td class="link"><a href="/?p=proxmox-websocket-tunnel.git;a=summary">summary</a> | <a href="/?p=proxmox-websocket-tunnel.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox-websocket-tunnel.git;a=log">log</a> | <a href="/?p=proxmox-websocket-tunnel.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=proxmox.git;a=summary">proxmox.git</a></td>
+<td><a class="list" href="/?p=proxmox.git;a=summary" title="RUST base library for proxmox">RUST base library for proxmox</a></td>
+<td class="age2">5 days ago</td>
+<td class="link"><a href="/?p=proxmox.git;a=summary">summary</a> | <a href="/?p=proxmox.git;a=shortlog">shortlog</a> | <a href="/?p=proxmox.git;a=log">log</a> | <a href="/?p=proxmox.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-esxi-import-tools.git;a=summary">pve-esxi-import-tools.git</a></td>
+<td><a class="list" href="/?p=pve-esxi-import-tools.git;a=summary" title="A FUSE-based filesytem to expose disk of ESXi VMs and API client wrappers to gather VM details">A FUSE-based filesytem to... </a></td>
+<td class="age2">3 months ago</td>
+<td class="link"><a href="/?p=pve-esxi-import-tools.git;a=summary">summary</a> | <a href="/?p=pve-esxi-import-tools.git;a=shortlog">shortlog</a> | <a href="/?p=pve-esxi-import-tools.git;a=log">log</a> | <a href="/?p=pve-esxi-import-tools.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-rs.git;a=summary">pve-rs.git</a></td>
+<td><a class="list" href="/?p=pve-rs.git;a=summary" title="Proxmox VE rust based/ported helper">Proxmox VE rust based/ported... </a></td>
+<td class="age2">3 years ago</td>
+<td class="link"><a href="/?p=pve-rs.git;a=summary">summary</a> | <a href="/?p=pve-rs.git;a=shortlog">shortlog</a> | <a href="/?p=pve-rs.git;a=log">log</a> | <a href="/?p=pve-rs.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pxar.git;a=summary">pxar.git</a></td>
+<td><a class="list" href="/?p=pxar.git;a=summary" title="Proxmox Archive format support library">Proxmox Archive format support... </a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=pxar.git;a=summary">summary</a> | <a href="/?p=pxar.git;a=shortlog">shortlog</a> | <a href="/?p=pxar.git;a=log">log</a> | <a href="/?p=pxar.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=rustc.git;a=summary">rustc.git</a></td>
+<td><a class="list" href="/?p=rustc.git;a=summary" title="backport for Debian buster">backport for Debian buster</a></td>
+<td class="age2">3 weeks ago</td>
+<td class="link"><a href="/?p=rustc.git;a=summary">summary</a> | <a href="/?p=rustc.git;a=shortlog">shortlog</a> | <a href="/?p=rustc.git;a=log">log</a> | <a href="/?p=rustc.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=vma-to-pbs.git;a=summary">vma-to-pbs.git</a></td>
+<td><a class="list" href="/?p=vma-to-pbs.git;a=summary" title="Tool to import Proxmox Virtual Machine Archives (VMA) into Proxmox Backup Server">Tool to import Proxmox Virtual... </a></td>
+<td class="age2">4 weeks ago</td>
+<td class="link"><a href="/?p=vma-to-pbs.git;a=summary">summary</a> | <a href="/?p=vma-to-pbs.git;a=shortlog">shortlog</a> | <a href="/?p=vma-to-pbs.git;a=log">log</a> | <a href="/?p=vma-to-pbs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=wasi-libc.git;a=summary">wasi-libc.git</a></td>
+<td><a class="list" href="/?p=wasi-libc.git;a=summary" title="backport for Debian buster">backport for Debian buster</a></td>
+<td class="age2">2 months ago</td>
+<td class="link"><a href="/?p=wasi-libc.git;a=summary">summary</a> | <a href="/?p=wasi-libc.git;a=shortlog">shortlog</a> | <a href="/?p=wasi-libc.git;a=log">log</a> | <a href="/?p=wasi-libc.git;a=tree">tree</a></td>
+</tr>
+<tr>
+<td class="category" colspan="5">​mirrors</td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=ifupdown-pve.git;a=summary">ifupdown-pve.git</a></td>
+<td><a class="list" href="/?p=ifupdown-pve.git;a=summary" title="ifupdown re-build to improve switching to ifupdown2">ifupdown re-build to improve... </a></td>
+<td class="age2">2 years ago</td>
+<td class="link"><a href="/?p=ifupdown-pve.git;a=summary">summary</a> | <a href="/?p=ifupdown-pve.git;a=shortlog">shortlog</a> | <a href="/?p=ifupdown-pve.git;a=log">log</a> | <a href="/?p=ifupdown-pve.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_acme.sh.git;a=summary">mirror_acme.sh.git</a></td>
+<td><a class="list" href="/?p=mirror_acme.sh.git;a=summary" title="acme.sh DNS challenge mirror">acme.sh DNS challenge mirror</a></td>
+<td class="age2">14 months ago</td>
+<td class="link"><a href="/?p=mirror_acme.sh.git;a=summary">summary</a> | <a href="/?p=mirror_acme.sh.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_acme.sh.git;a=log">log</a> | <a href="/?p=mirror_acme.sh.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_corosync-qdevice.git;a=summary">mirror_corosync-qdevice.git</a></td>
+<td><a class="list" href="/?p=mirror_corosync-qdevice.git;a=summary" title="mirror of the Corosync Cluster Engine Qdevice">mirror of the Corosync Cluster... </a></td>
+<td class="age2">4 years ago</td>
+<td class="link"><a href="/?p=mirror_corosync-qdevice.git;a=summary">summary</a> | <a href="/?p=mirror_corosync-qdevice.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_corosync-qdevice.git;a=log">log</a> | <a href="/?p=mirror_corosync-qdevice.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_corosync.git;a=summary">mirror_corosync.git</a></td>
+<td><a class="list" href="/?p=mirror_corosync.git;a=summary" title="corosync mirror">corosync mirror</a></td>
+<td class="age2">2 years ago</td>
+<td class="link"><a href="/?p=mirror_corosync.git;a=summary">summary</a> | <a href="/?p=mirror_corosync.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_corosync.git;a=log">log</a> | <a href="/?p=mirror_corosync.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_dvb-firmware.git;a=summary">mirror_dvb-firmware.git</a></td>
+<td><a class="list" href="/?p=mirror_dvb-firmware.git;a=summary" title="dvb-firmware mirror">dvb-firmware mirror</a></td>
+<td class="age2">3 years ago</td>
+<td class="link"><a href="/?p=mirror_dvb-firmware.git;a=summary">summary</a> | <a href="/?p=mirror_dvb-firmware.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_dvb-firmware.git;a=log">log</a> | <a href="/?p=mirror_dvb-firmware.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_edk2.git;a=summary">mirror_edk2.git</a></td>
+<td><a class="list" href="/?p=mirror_edk2.git;a=summary" title="EFI Development Kit II mirror for PVE">EFI Development Kit II mirror... </a></td>
+<td class="age2">21 months ago</td>
+<td class="link"><a href="/?p=mirror_edk2.git;a=summary">summary</a> | <a href="/?p=mirror_edk2.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_edk2.git;a=log">log</a> | <a href="/?p=mirror_edk2.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_frr.git;a=summary">mirror_frr.git</a></td>
+<td><a class="list" href="/?p=mirror_frr.git;a=summary" title="FRRouting mirror">FRRouting mirror</a></td>
+<td class="age2">15 months ago</td>
+<td class="link"><a href="/?p=mirror_frr.git;a=summary">summary</a> | <a href="/?p=mirror_frr.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_frr.git;a=log">log</a> | <a href="/?p=mirror_frr.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_ifupdown2.git;a=summary">mirror_ifupdown2.git</a></td>
+<td><a class="list" href="/?p=mirror_ifupdown2.git;a=summary" title="Upstream mirror of ifupdown2">Upstream mirror of ifupdown2</a></td>
+<td class="age2">19 months ago</td>
+<td class="link"><a href="/?p=mirror_ifupdown2.git;a=summary">summary</a> | <a href="/?p=mirror_ifupdown2.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ifupdown2.git;a=log">log</a> | <a href="/?p=mirror_ifupdown2.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_iproute2.git;a=summary">mirror_iproute2.git</a></td>
+<td><a class="list" href="/?p=mirror_iproute2.git;a=summary" title="Upstream mirror of iproute2">Upstream mirror of iproute2</a></td>
+<td class="age2">3 years ago</td>
+<td class="link"><a href="/?p=mirror_iproute2.git;a=summary">summary</a> | <a href="/?p=mirror_iproute2.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_iproute2.git;a=log">log</a> | <a href="/?p=mirror_iproute2.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_kronosnet.git;a=summary">mirror_kronosnet.git</a></td>
+<td><a class="list" href="/?p=mirror_kronosnet.git;a=summary" title="kronosnet mirror">kronosnet mirror</a></td>
+<td class="age2">4 years ago</td>
+<td class="link"><a href="/?p=mirror_kronosnet.git;a=summary">summary</a> | <a href="/?p=mirror_kronosnet.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_kronosnet.git;a=log">log</a> | <a href="/?p=mirror_kronosnet.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_libseccomp.git;a=summary">mirror_libseccomp.git</a></td>
+<td><a class="list" href="/?p=mirror_libseccomp.git;a=summary" title="libseccomp mirror">libseccomp mirror</a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=mirror_libseccomp.git;a=summary">summary</a> | <a href="/?p=mirror_libseccomp.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_libseccomp.git;a=log">log</a> | <a href="/?p=mirror_libseccomp.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_linux-firmware.git;a=summary">mirror_linux-firmware.git</a></td>
+<td><a class="list" href="/?p=mirror_linux-firmware.git;a=summary" title="linux-firmware mirror">linux-firmware mirror</a></td>
+<td class="age2">3 weeks ago</td>
+<td class="link"><a href="/?p=mirror_linux-firmware.git;a=summary">summary</a> | <a href="/?p=mirror_linux-firmware.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_linux-firmware.git;a=log">log</a> | <a href="/?p=mirror_linux-firmware.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_lxc.git;a=summary">mirror_lxc.git</a></td>
+<td><a class="list" href="/?p=mirror_lxc.git;a=summary" title="LXC mirror">LXC mirror</a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=mirror_lxc.git;a=summary">summary</a> | <a href="/?p=mirror_lxc.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_lxc.git;a=log">log</a> | <a href="/?p=mirror_lxc.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_lxcfs.git;a=summary">mirror_lxcfs.git</a></td>
+<td><a class="list" href="/?p=mirror_lxcfs.git;a=summary" title="LXCFS mirror">LXCFS mirror</a></td>
+<td class="age2">8 months ago</td>
+<td class="link"><a href="/?p=mirror_lxcfs.git;a=summary">summary</a> | <a href="/?p=mirror_lxcfs.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_lxcfs.git;a=log">log</a> | <a href="/?p=mirror_lxcfs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_novnc.git;a=summary">mirror_novnc.git</a></td>
+<td><a class="list" href="/?p=mirror_novnc.git;a=summary" title="noVNC mirror">noVNC mirror</a></td>
+<td class="age2">2 months ago</td>
+<td class="link"><a href="/?p=mirror_novnc.git;a=summary">summary</a> | <a href="/?p=mirror_novnc.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_novnc.git;a=log">log</a> | <a href="/?p=mirror_novnc.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_ovs.git;a=summary">mirror_ovs.git</a></td>
+<td><a class="list" href="/?p=mirror_ovs.git;a=summary" title="openvswitch mirror">openvswitch mirror</a></td>
+<td class="age2">3 years ago</td>
+<td class="link"><a href="/?p=mirror_ovs.git;a=summary">summary</a> | <a href="/?p=mirror_ovs.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ovs.git;a=log">log</a> | <a href="/?p=mirror_ovs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_qemu.git;a=summary">mirror_qemu.git</a></td>
+<td><a class="list" href="/?p=mirror_qemu.git;a=summary" title="QEMU mirror">QEMU mirror</a></td>
+<td class="age2">3 weeks ago</td>
+<td class="link"><a href="/?p=mirror_qemu.git;a=summary">summary</a> | <a href="/?p=mirror_qemu.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_qemu.git;a=log">log</a> | <a href="/?p=mirror_qemu.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_smartmontools-debian.git;a=summary">mirror_smartmontools-debian.git</a></td>
+<td><a class="list" href="/?p=mirror_smartmontools-debian.git;a=summary" title="Debian smartmontool mirror">Debian smartmontool mirror</a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=mirror_smartmontools-debian.git;a=summary">summary</a> | <a href="/?p=mirror_smartmontools-debian.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_smartmontools-debian.git;a=log">log</a> | <a href="/?p=mirror_smartmontools-debian.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_spl-debian.git;a=summary">mirror_spl-debian.git</a></td>
+<td><a class="list" href="/?p=mirror_spl-debian.git;a=summary" title="Unnamed repository; edit this file 'description' to name the repository.">Unnamed repository; edit this... </a></td>
+<td class="age2">6 years ago</td>
+<td class="link"><a href="/?p=mirror_spl-debian.git;a=summary">summary</a> | <a href="/?p=mirror_spl-debian.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_spl-debian.git;a=log">log</a> | <a href="/?p=mirror_spl-debian.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_spl.git;a=summary">mirror_spl.git</a></td>
+<td><a class="list" href="/?p=mirror_spl.git;a=summary" title="mirror of SPL module used by &lt;&lt; 0.8.x ZFSOnLinux">mirror of SPL module used... </a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=mirror_spl.git;a=summary">summary</a> | <a href="/?p=mirror_spl.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_spl.git;a=log">log</a> | <a href="/?p=mirror_spl.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_ubuntu-artful-kernel.git;a=summary">mirror_ubuntu-artful-kernel.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-artful-kernel.git;a=summary" title="Ubuntu Artful kernel mirror">Ubuntu Artful kernel mirror</a></td>
+<td class="age2">6 years ago</td>
+<td class="link"><a href="/?p=mirror_ubuntu-artful-kernel.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-artful-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-artful-kernel.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-artful-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_ubuntu-bionic-kernel.git;a=summary">mirror_ubuntu-bionic-kernel.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-bionic-kernel.git;a=summary" title="ubuntu-bionic-kernel mirror">ubuntu-bionic-kernel mirror</a></td>
+<td class="age2">4 years ago</td>
+<td class="link"><a href="/?p=mirror_ubuntu-bionic-kernel.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-bionic-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-bionic-kernel.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-bionic-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_ubuntu-disco-kernel.git;a=summary">mirror_ubuntu-disco-kernel.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-disco-kernel.git;a=summary" title="Ubuntu Disco kernel mirror for Proxmox VE and PMG">Ubuntu Disco kernel mirror... </a></td>
+<td class="age2">5 years ago</td>
+<td class="link"><a href="/?p=mirror_ubuntu-disco-kernel.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-disco-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-disco-kernel.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-disco-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_ubuntu-eoan-kernel.git;a=summary">mirror_ubuntu-eoan-kernel.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-eoan-kernel.git;a=summary" title="Ubuntu Eoan Linux kernel mirror">Ubuntu Eoan Linux kernel mirror</a></td>
+<td class="age2">4 years ago</td>
+<td class="link"><a href="/?p=mirror_ubuntu-eoan-kernel.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-eoan-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-eoan-kernel.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-eoan-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_ubuntu-focal-kernel.git;a=summary">mirror_ubuntu-focal-kernel.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-focal-kernel.git;a=summary" title="Ubuntu Focal Linux kernel mirror">Ubuntu Focal Linux kernel... </a></td>
+<td class="age2">2 years ago</td>
+<td class="link"><a href="/?p=mirror_ubuntu-focal-kernel.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-focal-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-focal-kernel.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-focal-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_ubuntu-hirsute-kernel.git;a=summary">mirror_ubuntu-hirsute-kernel.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-hirsute-kernel.git;a=summary" title="Ubuntu Hirsute Linux kernel mirror">Ubuntu Hirsute Linux kernel... </a></td>
+<td class="age2">3 years ago</td>
+<td class="link"><a href="/?p=mirror_ubuntu-hirsute-kernel.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-hirsute-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-hirsute-kernel.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-hirsute-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_ubuntu-impish-kernel.git;a=summary">mirror_ubuntu-impish-kernel.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-impish-kernel.git;a=summary" title="Ubuntu Impish Linux kernel mirror">Ubuntu Impish Linux kernel... </a></td>
+<td class="age2">3 years ago</td>
+<td class="link"><a href="/?p=mirror_ubuntu-impish-kernel.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-impish-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-impish-kernel.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-impish-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_ubuntu-jammy-kernel.git;a=summary">mirror_ubuntu-jammy-kernel.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-jammy-kernel.git;a=summary" title="Ubuntu Jammy Linux kernel mirror">Ubuntu Jammy Linux kernel... </a></td>
+<td class="age2">2 years ago</td>
+<td class="link"><a href="/?p=mirror_ubuntu-jammy-kernel.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-jammy-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-jammy-kernel.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-jammy-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_ubuntu-kernels.git;a=summary">mirror_ubuntu-kernels.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-kernels.git;a=summary" title="Ubuntu combined Linux kernel mirror">Ubuntu combined Linux kernel... </a></td>
+<td class="age2">2 years ago</td>
+<td class="link"><a href="/?p=mirror_ubuntu-kernels.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-kernels.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-kernels.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-kernels.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_ubuntu-kinetic-kernel.git;a=summary">mirror_ubuntu-kinetic-kernel.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-kinetic-kernel.git;a=summary" title="Ubuntu Kinetic Linux kernel mirror">Ubuntu Kinetic Linux kernel... </a></td>
+<td class="noage">No commits</td>
+<td class="link"><a href="/?p=mirror_ubuntu-kinetic-kernel.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-kinetic-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-kinetic-kernel.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-kinetic-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_ubuntu-zesty-kernel.git;a=summary">mirror_ubuntu-zesty-kernel.git</a></td>
+<td><a class="list" href="/?p=mirror_ubuntu-zesty-kernel.git;a=summary" title="ubuntu-zesty-kernel mirror">ubuntu-zesty-kernel mirror</a></td>
+<td class="age2">7 years ago</td>
+<td class="link"><a href="/?p=mirror_ubuntu-zesty-kernel.git;a=summary">summary</a> | <a href="/?p=mirror_ubuntu-zesty-kernel.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_ubuntu-zesty-kernel.git;a=log">log</a> | <a href="/?p=mirror_ubuntu-zesty-kernel.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_xterm.js.git;a=summary">mirror_xterm.js.git</a></td>
+<td><a class="list" href="/?p=mirror_xterm.js.git;a=summary" title="xterm.js mirror">xterm.js mirror</a></td>
+<td class="age2">7 years ago</td>
+<td class="link"><a href="/?p=mirror_xterm.js.git;a=summary">summary</a> | <a href="/?p=mirror_xterm.js.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_xterm.js.git;a=log">log</a> | <a href="/?p=mirror_xterm.js.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=mirror_zfs-debian.git;a=summary">mirror_zfs-debian.git</a></td>
+<td><a class="list" href="/?p=mirror_zfs-debian.git;a=summary" title="Mirror of ZFSOnLinux for Debian">Mirror of ZFSOnLinux for Debian</a></td>
+<td class="age2">6 years ago</td>
+<td class="link"><a href="/?p=mirror_zfs-debian.git;a=summary">summary</a> | <a href="/?p=mirror_zfs-debian.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_zfs-debian.git;a=log">log</a> | <a href="/?p=mirror_zfs-debian.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=mirror_zfs.git;a=summary">mirror_zfs.git</a></td>
+<td><a class="list" href="/?p=mirror_zfs.git;a=summary" title="ZFS On Linux mirror for PVE">ZFS On Linux mirror for PVE</a></td>
+<td class="age2">2 months ago</td>
+<td class="link"><a href="/?p=mirror_zfs.git;a=summary">summary</a> | <a href="/?p=mirror_zfs.git;a=shortlog">shortlog</a> | <a href="/?p=mirror_zfs.git;a=log">log</a> | <a href="/?p=mirror_zfs.git;a=tree">tree</a></td>
+</tr>
+<tr>
+<td class="category" colspan="5">​~legacy</td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=apt.git;a=summary">apt.git</a></td>
+<td><a class="list" href="/?p=apt.git;a=summary" title="backport proxy auth fix for apt-transport-https">backport proxy auth fix for... </a></td>
+<td class="age2">11 years ago</td>
+<td class="link"><a href="/?p=apt.git;a=summary">summary</a> | <a href="/?p=apt.git;a=shortlog">shortlog</a> | <a href="/?p=apt.git;a=log">log</a> | <a href="/?p=apt.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=cgmanager.git;a=summary">cgmanager.git</a></td>
+<td><a class="list" href="/?p=cgmanager.git;a=summary" title="cgmanager package for Proxmox VE">cgmanager package for Proxmox VE</a></td>
+<td class="age2">9 years ago</td>
+<td class="link"><a href="/?p=cgmanager.git;a=summary">summary</a> | <a href="/?p=cgmanager.git;a=shortlog">shortlog</a> | <a href="/?p=cgmanager.git;a=log">log</a> | <a href="/?p=cgmanager.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=dlm.git;a=summary">dlm.git</a></td>
+<td><a class="list" href="/?p=dlm.git;a=summary" title="latest distributed lock manager for jessie">latest distributed lock manage... </a></td>
+<td class="age2">9 years ago</td>
+<td class="link"><a href="/?p=dlm.git;a=summary">summary</a> | <a href="/?p=dlm.git;a=shortlog">shortlog</a> | <a href="/?p=dlm.git;a=log">log</a> | <a href="/?p=dlm.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=drbd-utils.git;a=summary">drbd-utils.git</a></td>
+<td><a class="list" href="/?p=drbd-utils.git;a=summary" title="test drbd-utils for PVE">test drbd-utils for PVE</a></td>
+<td class="age2">8 years ago</td>
+<td class="link"><a href="/?p=drbd-utils.git;a=summary">summary</a> | <a href="/?p=drbd-utils.git;a=shortlog">shortlog</a> | <a href="/?p=drbd-utils.git;a=log">log</a> | <a href="/?p=drbd-utils.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=gfs2-utils.git;a=summary">gfs2-utils.git</a></td>
+<td><a class="list" href="/?p=gfs2-utils.git;a=summary" title="GFS2 utils">GFS2 utils</a></td>
+<td class="age2">9 years ago</td>
+<td class="link"><a href="/?p=gfs2-utils.git;a=summary">summary</a> | <a href="/?p=gfs2-utils.git;a=shortlog">shortlog</a> | <a href="/?p=gfs2-utils.git;a=log">log</a> | <a href="/?p=gfs2-utils.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=glusterfs.git;a=summary">glusterfs.git</a></td>
+<td><a class="list" href="/?p=glusterfs.git;a=summary" title="GlusterFS backport from sid to wheezy">GlusterFS backport from sid... </a></td>
+<td class="age2">10 years ago</td>
+<td class="link"><a href="/?p=glusterfs.git;a=summary">summary</a> | <a href="/?p=glusterfs.git;a=shortlog">shortlog</a> | <a href="/?p=glusterfs.git;a=log">log</a> | <a href="/?p=glusterfs.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=libnet-http-perl.git;a=summary">libnet-http-perl.git</a></td>
+<td><a class="list" href="/?p=libnet-http-perl.git;a=summary" title="updated libnet-http-perl">updated libnet-http-perl</a></td>
+<td class="age2">11 years ago</td>
+<td class="link"><a href="/?p=libnet-http-perl.git;a=summary">summary</a> | <a href="/?p=libnet-http-perl.git;a=shortlog">shortlog</a> | <a href="/?p=libnet-http-perl.git;a=log">log</a> | <a href="/?p=libnet-http-perl.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=libusb.git;a=summary">libusb.git</a></td>
+<td><a class="list" href="/?p=libusb.git;a=summary" title="libusbx backport from jessie to wheezy">libusbx backport from jessie... </a></td>
+<td class="age2">11 years ago</td>
+<td class="link"><a href="/?p=libusb.git;a=summary">summary</a> | <a href="/?p=libusb.git;a=shortlog">shortlog</a> | <a href="/?p=libusb.git;a=log">log</a> | <a href="/?p=libusb.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=openais-pve.git;a=summary">openais-pve.git</a></td>
+<td><a class="list" href="/?p=openais-pve.git;a=summary" title="OpenAIS Cluster Framework">OpenAIS Cluster Framework</a></td>
+<td class="age2">11 years ago</td>
+<td class="link"><a href="/?p=openais-pve.git;a=summary">summary</a> | <a href="/?p=openais-pve.git;a=shortlog">shortlog</a> | <a href="/?p=openais-pve.git;a=log">log</a> | <a href="/?p=openais-pve.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=openvswitch.git;a=summary">openvswitch.git</a></td>
+<td><a class="list" href="/?p=openvswitch.git;a=summary" title="openvswitch packages for PVE">openvswitch packages for PVE</a></td>
+<td class="age2">4 years ago</td>
+<td class="link"><a href="/?p=openvswitch.git;a=summary">summary</a> | <a href="/?p=openvswitch.git;a=shortlog">shortlog</a> | <a href="/?p=openvswitch.git;a=log">log</a> | <a href="/?p=openvswitch.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=parted.git;a=summary">parted.git</a></td>
+<td><a class="list" href="/?p=parted.git;a=summary" title="parted backport from jessie to wheezy">parted backport from jessie... </a></td>
+<td class="age2">9 years ago</td>
+<td class="link"><a href="/?p=parted.git;a=summary">summary</a> | <a href="/?p=parted.git;a=shortlog">shortlog</a> | <a href="/?p=parted.git;a=log">log</a> | <a href="/?p=parted.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-kernel-2.6.32.git;a=summary">pve-kernel-2.6.32.git</a></td>
+<td><a class="list" href="/?p=pve-kernel-2.6.32.git;a=summary" title="Linux Kernel 2.6.32">Linux Kernel 2.6.32</a></td>
+<td class="age2">7 years ago</td>
+<td class="link"><a href="/?p=pve-kernel-2.6.32.git;a=summary">summary</a> | <a href="/?p=pve-kernel-2.6.32.git;a=shortlog">shortlog</a> | <a href="/?p=pve-kernel-2.6.32.git;a=log">log</a> | <a href="/?p=pve-kernel-2.6.32.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-kernel-3.10.0.git;a=summary">pve-kernel-3.10.0.git</a></td>
+<td><a class="list" href="/?p=pve-kernel-3.10.0.git;a=summary" title="Linux Kernel 3.10.0">Linux Kernel 3.10.0</a></td>
+<td class="age2">8 years ago</td>
+<td class="link"><a href="/?p=pve-kernel-3.10.0.git;a=summary">summary</a> | <a href="/?p=pve-kernel-3.10.0.git;a=shortlog">shortlog</a> | <a href="/?p=pve-kernel-3.10.0.git;a=log">log</a> | <a href="/?p=pve-kernel-3.10.0.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-kernel-jessie.git;a=summary">pve-kernel-jessie.git</a></td>
+<td><a class="list" href="/?p=pve-kernel-jessie.git;a=summary" title="Linux Kernel for Jessie">Linux Kernel for Jessie</a></td>
+<td class="age2">6 years ago</td>
+<td class="link"><a href="/?p=pve-kernel-jessie.git;a=summary">summary</a> | <a href="/?p=pve-kernel-jessie.git;a=shortlog">shortlog</a> | <a href="/?p=pve-kernel-jessie.git;a=log">log</a> | <a href="/?p=pve-kernel-jessie.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-manager-legacy.git;a=summary">pve-manager-legacy.git</a></td>
+<td><a class="list" href="/?p=pve-manager-legacy.git;a=summary" title="PVE Management Server">PVE Management Server</a></td>
+<td class="age2">18 months ago</td>
+<td class="link"><a href="/?p=pve-manager-legacy.git;a=summary">summary</a> | <a href="/?p=pve-manager-legacy.git;a=shortlog">shortlog</a> | <a href="/?p=pve-manager-legacy.git;a=log">log</a> | <a href="/?p=pve-manager-legacy.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve-qemu-kvm.git;a=summary">pve-qemu-kvm.git</a></td>
+<td><a class="list" href="/?p=pve-qemu-kvm.git;a=summary" title="old QEMU for PVE">old QEMU for PVE</a></td>
+<td class="age2">7 years ago</td>
+<td class="link"><a href="/?p=pve-qemu-kvm.git;a=summary">summary</a> | <a href="/?p=pve-qemu-kvm.git;a=shortlog">shortlog</a> | <a href="/?p=pve-qemu-kvm.git;a=log">log</a> | <a href="/?p=pve-qemu-kvm.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=pve-sheepdog.git;a=summary">pve-sheepdog.git</a></td>
+<td><a class="list" href="/?p=pve-sheepdog.git;a=summary" title="Sheepdog Server">Sheepdog Server</a></td>
+<td class="age2">7 years ago</td>
+<td class="link"><a href="/?p=pve-sheepdog.git;a=summary">summary</a> | <a href="/?p=pve-sheepdog.git;a=shortlog">shortlog</a> | <a href="/?p=pve-sheepdog.git;a=log">log</a> | <a href="/?p=pve-sheepdog.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=pve2-api-doc.git;a=summary">pve2-api-doc.git</a></td>
+<td><a class="list" href="/?p=pve2-api-doc.git;a=summary" title="Old PVE API documenation, superseeded by pve-docs">Old PVE API documenation,... </a></td>
+<td class="age2">9 years ago</td>
+<td class="link"><a href="/?p=pve2-api-doc.git;a=summary">summary</a> | <a href="/?p=pve2-api-doc.git;a=shortlog">shortlog</a> | <a href="/?p=pve2-api-doc.git;a=log">log</a> | <a href="/?p=pve2-api-doc.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=redhat-cluster-pve.git;a=summary">redhat-cluster-pve.git</a></td>
+<td><a class="list" href="/?p=redhat-cluster-pve.git;a=summary" title="Redhat Cluster Suite">Redhat Cluster Suite</a></td>
+<td class="age2">11 years ago</td>
+<td class="link"><a href="/?p=redhat-cluster-pve.git;a=summary">summary</a> | <a href="/?p=redhat-cluster-pve.git;a=shortlog">shortlog</a> | <a href="/?p=redhat-cluster-pve.git;a=log">log</a> | <a href="/?p=redhat-cluster-pve.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=resource-agents-pve.git;a=summary">resource-agents-pve.git</a></td>
+<td><a class="list" href="/?p=resource-agents-pve.git;a=summary" title="Resource Agents">Resource Agents</a></td>
+<td class="age2">11 years ago</td>
+<td class="link"><a href="/?p=resource-agents-pve.git;a=summary">summary</a> | <a href="/?p=resource-agents-pve.git;a=shortlog">shortlog</a> | <a href="/?p=resource-agents-pve.git;a=log">log</a> | <a href="/?p=resource-agents-pve.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=usb-redir.git;a=summary">usb-redir.git</a></td>
+<td><a class="list" href="/?p=usb-redir.git;a=summary" title="backport usbredir 0.6 to wheezy">backport usbredir 0.6 to wheezy</a></td>
+<td class="age2">11 years ago</td>
+<td class="link"><a href="/?p=usb-redir.git;a=summary">summary</a> | <a href="/?p=usb-redir.git;a=shortlog">shortlog</a> | <a href="/?p=usb-redir.git;a=log">log</a> | <a href="/?p=usb-redir.git;a=tree">tree</a></td>
+</tr>
+<tr class="light">
+<td><a class="list" href="/?p=vzctl.git;a=summary">vzctl.git</a></td>
+<td><a class="list" href="/?p=vzctl.git;a=summary" title="OpenVZ containters control utility">OpenVZ containters control... </a></td>
+<td class="age2">10 years ago</td>
+<td class="link"><a href="/?p=vzctl.git;a=summary">summary</a> | <a href="/?p=vzctl.git;a=shortlog">shortlog</a> | <a href="/?p=vzctl.git;a=log">log</a> | <a href="/?p=vzctl.git;a=tree">tree</a></td>
+</tr>
+<tr class="dark">
+<td><a class="list" href="/?p=vzquota.git;a=summary">vzquota.git</a></td>
+<td><a class="list" href="/?p=vzquota.git;a=summary" title="OpenVZ vzquota tools">OpenVZ vzquota tools</a></td>
+<td class="age2">11 years ago</td>
+<td class="link"><a href="/?p=vzquota.git;a=summary">summary</a> | <a href="/?p=vzquota.git;a=shortlog">shortlog</a> | <a href="/?p=vzquota.git;a=log">log</a> | <a href="/?p=vzquota.git;a=tree">tree</a></td>
+</tr>
+</table>
+<div class="page_footer">
+<a class="rss_logo" href="/?a=opml">OPML</a> <a class="rss_logo" href="/?a=project_index">TXT</a>
+</div>
+<script type="text/javascript" src="static/gitweb.js"></script>
+<script type="text/javascript">
+window.onload = function () {
+	var tz_cookie = { name: 'gitweb_tz', expires: 14, path: '/' };
+	onloadTZSetup('local', tz_cookie, 'datetime');
+};
+</script>
+</body>
+</html>
