@@ -1,0 +1,2 @@
+https://github.com/orgs/proxmox/repositories
+https://git.proxmox.com/
