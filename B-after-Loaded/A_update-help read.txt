@@ -1,0 +1,11 @@
+# help how to update script.txt
+
+This file explains how to update using the provided script. 
+
+### Instructions
+1. Copy the following command.
+2. Paste it into your terminal/command line.
+3. Press Enter to run the script.
+
+```bash
+wget -qO- https://raw.githubusercontent.com/kc0hwa/JLH_setup_now/refs/heads/main/B-after-Loaded/FOR%20COMPUTER%20TO%20RUN/update.sh | bash
