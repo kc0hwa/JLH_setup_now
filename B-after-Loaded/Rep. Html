@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxmox Helper Script</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .command-container {
+            margin: 10px 0;
+        }
+        .command {
+            display: inline-block;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        .copy-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .copy-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Proxmox Helper Script</h1>
+    <div class="command-container">
+        <div class="command" id="remove-enterprise">
+            rm /etc/apt/sources.list.d/pve-enterprise.list
+        </div>
+        <button class="copy-btn" onclick="copyCommand('remove-enterprise')">Copy</button>
+    </div>
+    <div class="command-container">
+        <div class="command" id="add-free-repo">
+            echo "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription" > /etc/apt/sources.list.d/pve-no-subscription.list
+        </div>
+        <button class="copy-btn" onclick="copyCommand('add-free-repo')">Copy</button>
+    </div>
+    <div class="command-container">
+        <div class="command" id="update-packages">
+            apt update && apt upgrade -y
+        </div>
+        <button class="copy-btn" onclick="copyCommand('update-packages')">Copy</button>
+    </div>
+
+    <script>
+        function copyCommand(id) {
+            const commandText = document.getElementById(id).innerText;
+            navigator.clipboard.writeText(commandText).then(() => {
+                alert("Command copied: " + commandText);
+            }).catch(err => {
+                alert("Failed to copy: " + err);
+            });
+        }
+    </script>
+</body>
+</html>
