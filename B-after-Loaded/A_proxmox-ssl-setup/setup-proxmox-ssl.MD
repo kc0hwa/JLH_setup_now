@@ -13,4 +13,4 @@ A simple helper script to set up a valid HTTPS certificate for your Proxmox serv
 Run the following command on your Proxmox server to download and execute the script:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/kc0hwa/JLH_setup_now/refs/heads/main/B-after-Loaded/A_proxmox-ssl-setup/setup-proxmox-ssl.sh.SH)
+bash <(curl -s https://raw.githubusercontent.com/kc0hwa/JLH_setup_now/refs/heads/main/B-after-Loaded/A_proxmox-ssl-setup/setup-proxmox-ssl.sh)
